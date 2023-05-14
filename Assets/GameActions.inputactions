@@ -1,0 +1,45 @@
+{
+    "name": "Actions",
+    "maps": [
+        {
+            "name": "GameActions",
+            "id": "9dcb3253-c08d-44e0-ab87-a1b2a0ee1ee9",
+            "actions": [
+                {
+                    "name": "Grab",
+                    "type": "PassThrough",
+                    "id": "d6fc10ca-ad9e-42e7-8cfa-663eaec7bf3d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dd9d952c-b0da-4084-b544-6377641ea7d4",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e2f4345-5201-44bf-8629-f4cc7cc8afcb",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
